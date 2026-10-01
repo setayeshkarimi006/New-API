@@ -1,0 +1,22 @@
+{
+  "name": "inteligent",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "npx json-server ./src/db.json"
+  },
+  "devDependencies": {
+    "vite": "^8.2.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "flowbite": "^4.0.2",
+    "json-server": "^0.17.4",
+    "swiper": "^14.0.7",
+    "tailwindcss": "^4.3.3"
+  }
+}
